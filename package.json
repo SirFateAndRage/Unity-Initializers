@@ -1,0 +1,11 @@
+{
+  "name": "com.sirfateandrage.unity-initializers",
+  "version": "0.0.1",
+  "displayName": "Initializer",
+  "description": "This system allows configuring and structuring logic in a modular way, providing flexibility according to the specific needs of each object. This promotes a more scalable, maintainable, and reusable design by managing initialization in a consistent and structured manner.",
+  "author": {
+    "name": "SirFateAndRage",
+    "email": "milanicristian94@gmail.com",
+    "url": "https://www.linkedin.com/in/cristian-milani-4b176a204/"
+  }
+}
