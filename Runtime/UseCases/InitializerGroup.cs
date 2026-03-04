@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,14 +11,14 @@ namespace SFR.Initializers
         [Header("References")]
         [SerializeField] private Initializer[] _initializer;
 
-        public override void Initialize()
+        public override async Task Initialize()
         {
             foreach (var initializer in _initializer)
             {
                 if (null == initializer)
                     HandleNullInitializer();
-                    
-                initializer.Initialize();
+
+                await initializer.Initialize();
             }
         }
 

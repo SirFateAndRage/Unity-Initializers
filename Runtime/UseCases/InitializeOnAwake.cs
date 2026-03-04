@@ -2,6 +2,6 @@
 {
     public class InitializeOnAwake : InitializerGroup
     {
-        private void Awake() => Initialize();
+        private async void Awake() => await Initialize();
     }
 }

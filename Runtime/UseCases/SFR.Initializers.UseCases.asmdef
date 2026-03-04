@@ -1,0 +1,16 @@
+{
+    "name": "SFR.Initializers.UseCases",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ace58b20302fb74478ee5ab3f61c82e3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
